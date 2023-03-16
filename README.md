@@ -22,6 +22,7 @@ dataset.describe()
 dataset.isnull().sum()
 dataset.corr()
 dataset.cov()
+dataset.columns
 
 dataset = dataset.drop('Serial No.',axis=1)
 X = dataset.drop('Chance of Admit ',axis=1)
